@@ -30,13 +30,5 @@
 
 .example-fonts__connection-way_three {
     font-size: 3em;
-    font-family: 'Pacifico-Regular', cursive;
-}
-
-
-/* Переподключил шрифт через <link> */
-
-.example-fonts__connection-way_four {
-    font-size: 3em;
     font-family: 'Pacifico', cursive;
 }
