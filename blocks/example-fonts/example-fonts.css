@@ -1,0 +1,42 @@
+.example-fonts {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+
+/* Подключение через ссылку "link" */
+
+.example-fonts__connection-way_one {
+    text-indent: 55px;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+}
+
+
+/* Подключение через директиву "import" */
+
+.example-fonts__connection-way_two {
+    text-indent: -45px;
+    font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    /* Директива указана в fonts.css */
+}
+
+
+/* Локальное подключение шрифта */
+
+.example-fonts__connection-way_three {
+    font-size: 3em;
+    font-family: 'Pacifico-Regular', cursive;
+}
+
+
+/* Переподключил шрифт через <link> */
+
+.example-fonts__connection-way_four {
+    font-size: 3em;
+    font-family: 'Pacifico', cursive;
+}
