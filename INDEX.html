@@ -19,15 +19,151 @@
 
 <body>
     <div class="root">
-        <section class="example-fonts">
-            <h2 class="example-fonts">Подключение шрифтов</h2>
-            <p>Пример Стандартного шрифта
+        <section class="section">
+            <h2 class="section__title">Подключение шрифтов</h2>
+            <p class="fonts__example">Пример Стандартного шрифта
                 <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, eos.
             </p>
-            <p class="example-fonts example-fonts__connection-way_one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quis odit eum rerum omnis similique dignissimos aliquam laborum cumque sequi.</p>
-            <p class="example-fonts example-fonts__connection-way_two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quis odit eum rerum omnis similique dignissimos aliquam laborum cumque sequi.</p>
-            <p class="example-fonts example-fonts__connection-way_three"> Алая Almost Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quis odit eum rerum omnis similique dignissimos aliquam laborum cumque sequi.</p>
-            <p class="example-fonts example-fonts__connection-way_four"> Алая Almost Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quis odit eum rerum omnis similique dignissimos aliquam laborum cumque sequi.</p>
+            <p class="fonts__example fonts__example_connection-way_one">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Cupiditate quis odit eum rerum omnis similique dignissimos aliquam laborum cumque
+                sequi.</p>
+            <p class="fonts__example fonts__example_connection-way_two">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Cupiditate quis odit eum rerum omnis similique dignissimos aliquam laborum cumque
+                sequi.</p>
+            <p class="fonts__example fonts__example_connection-way_three"> Алая Almost Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Cupiditate quis odit eum rerum omnis similique dignissimos aliquam laborum
+                cumque sequi.</p>
+        </section>
+
+        <section class="section">
+            <h2 class="section__title">Поля ввода</h2>
+
+            <form class="form-first" action="#">
+                <fieldset class="fieldset" name="personalInfo">
+                    <legend class="legend">Личные данные</legend>
+
+                    <label for="userName" class="label">
+                        Ваш Ник
+                        <input type="text" class="input" name="userName" id="userName" placeholder="Enter your nickname"
+                            required autofocus maxlength="20">
+                    </label>
+
+                    <label for="password" class="label">
+                        Ваш пароль
+                        <input type="password" class="input" name="password" id="password"
+                            placeholder="Enter the password">
+                    </label>
+                    <button class=" button" type="submit">Отправить</button>
+                    <button class="button" type="reset">Стереть</button>
+                </fieldset>
+                <fieldset class="fieldset" name="personaldate">
+                    <legend class="legend">Контактная информация</legend>
+                    <label for="phoneNumber" class="label">
+                        Ваш номер телефона
+                        <input type="tel" class="input" name="phoneNumber" id="phoneNumber" placeholder="+7"
+                            maxlength="12" required>
+                    </label>
+
+                    <label for="email" class="label">
+                        Ваш адрес электронной почты
+                        <input type="email" class="input" name="email" id="email" placeholder="example@mail.ru">
+                    </label>
+
+                    <label for="personalPage" class="label">
+                        Адрес личной web странички
+                        <input type="url" class="input" name="personalPage" id="personalPage"
+                            placeholder="https:\\www.example.ru">
+                    </label>
+                    <label for="date" class="label">
+                        Дата заполнения
+                        <input type="date" class="input" name="date" id="date">
+                        <input type="time" class="input" name="dateTime" id="dateTime">
+                    </label>
+                    <label for="comments" class="label">
+                        Ваши комментарии
+                        <textarea class="input" name="comments" id="comments" cols="30" rows="10"
+                            placeholder="Enter on the text, but not mThe maximum message lenght is 200 characters"
+                            maxlength="200"></textarea>
+                    </label>
+                    <button class=" button" type="submit">Отправить</button>
+                    <button class="button" type="reset">Стереть</button>
+                </fieldset>
+            </form>
+            <form action="##" class="form-last">
+                <fieldset class="fieldset" name="additionalInfo">
+                    <legend class="legend">Дополнительная информация</legend>
+                    <label for="mood" class="label">
+                        Оценить свой настрой на обучение
+                        <input class="input" type="range" name="mood" id="mood" min="0" max="1000" step="100"
+                            value="300">
+                    </label>
+                    <label for="photo" class="label">
+                        Поделись своим фото тут
+                        <input class="input" type="file" name="photo" id="photo">
+                    </label>
+                    <label for="search" class="label">
+                        Поиск по сайту
+                        <input class="input" type="search" name="search" id="search" placeholder="Search">
+                    </label>
+                    <label for="blockedInput" class="label">
+                        Заблокированное поле
+                        <input class="input" type="number" name="blockedInput" id="blockedInput" disabled
+                            placeholder="нажать не сможешь">
+                    </label>
+                    <label for="onlyForReading" class="label">
+                        Свойство мин\макс
+                        <input class="input" type="datetime-local" name="onlyForReading" id="onlyForReading"
+                            min="2022-06-01T16:10" max="2022-06-30T16:30">
+                    </label>
+                    <label for="blockedInput" class="label">
+                        Только для чтения
+                        <input class="input" type="text" name="blockedInput" id="blockedInput" readonly
+                            value="Заранее выбранный вариант">
+                    </label>
+                    <button class=" button" type="submit">Отправить</button>
+                    <button class="button" type="reset">Стереть</button>
+                </fieldset>
+                <fieldset class="fieldset" name="checkbox">
+                    <legend class="legend"> Списки и кнопки</legend>
+                    <label class="label label_weight_normal">
+                        <input class="radio-button" type="radio" name="gender" value="Man">
+                        Мужчина
+                    </label>
+                    <br>
+                    <label class="label label_weight_normal">
+                        <input class="radio-button" type="radio" name="gender" value="Woman">
+                        Женщина
+                    </label>
+                    <br>
+                    <ul class="property" id="property">
+                        <label for="property" class="label">Ваше имущество</label>
+                        <li class="property__item">
+                            <input class="checked-button" type="checkbox" name="property" value="car" id="car">
+                            <label for="car" class="label label_weight_normal">Автомобиль</label>
+
+                        </li>
+                        <li class="property__item">
+                            <input class="checked-button" type="checkbox" name="property" value="bike" id="bike">
+                            <label for="bike" class="label label_weight_normal">Мотоцикл</label>
+
+                        </li>
+                        <li class="property__item">
+                            <input class="checked-button" type="checkbox" name="property" value="flat" id="flat">
+                            <label for="flat" class="label label_weight_normal">Квартира</label>
+
+                        </li>
+                        <li class="property__item">
+                            <input class="checked-button" type="checkbox" name="property" value="landPlot"
+                                id="landPlot">
+                            <label for="landPlot" class="label label_weight_normal">Участок</label>
+
+                        </li>
+                    </ul>
+                    <button class="button" type="submit">Отправить</button>
+                    <button class="button" type="reset">Стереть</button>
+                </fieldset>
+            </form>
+
         </section>
 </body>
 

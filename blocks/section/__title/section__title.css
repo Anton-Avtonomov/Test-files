@@ -1,0 +1,6 @@
+.section__title {
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.452);
+    color: red;
+    align-self: center;
+    font-size: 56px;
+}

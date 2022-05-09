@@ -1,0 +1,6 @@
+/* Локальное подключение шрифта */
+
+.fonts__example_connection-way_three {
+    font-size: 3em;
+    font-family: 'Pacifico', cursive;
+}
