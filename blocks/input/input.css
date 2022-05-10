@@ -9,45 +9,51 @@
     margin-top: 20px;
     border: 2px solid blue;
 }
+
 .legend {
     color: rgba(0, 0, 255, 0.466);
     font-size: 30px;
     padding: 0 20px;
 
 }
+
 .input {
-  display: block;
-  margin: 10px 0 30px 0;
-  min-width: 400px;
-  min-height: 40px;
-  padding-left: 20px;
+    display: block;
+    margin: 10px 0 30px 0;
+    min-width: 400px;
+    min-height: 40px;
+    padding-left: 20px;
 }
 
-.property {
-    list-style-type: none;
-    padding: 0;
+
+.drop-down-list {
+    display: block;
+    margin: 30px 0;
+    min-width: 300px;
+    min-height: 40px;
 }
 
-.property__item {
-    margin: 10px 0 0 0;
-    font-weight: normal;
-    
-}
+
+/* стили чекбокса */
+.checkbox-button,
 .radio-button {
-   
+    width: 30px;
+    height: 30px;
 }
 
-.checked-button {}
-.label {
-    font-weight: bold;
-    margin: 0 0 10px 0;
-}
-
-.label_weight_normal {
-    font-weight: 400;
-}
 .button {
     min-width: 200px;
     min-height: 40px;
     font-weight: 700;
 }
+
+
+@keyframes translatex {
+    0% {transform: translate(0, 0);}
+    20% {transform: translate(200px, 100px);}
+    40% {transform: translate(400px, -100px);}
+    60% {transform: translate(600px, 100px);}
+    80% {transform: translate(800px, -100px);}
+    100% {transform: translate(800px, -100px);}
+}
+

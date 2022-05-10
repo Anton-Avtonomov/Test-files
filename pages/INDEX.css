@@ -17,3 +17,19 @@
 /* Блок Полей ввода */
 @import url(../blocks/input/input.css);
 @import url(../blocks/input/__item/input__item.css);
+/* Блок card */
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__animation/card__animation.css);
+@import url(../blocks/card/__back-side/card__back-side.css);
+@import url(../blocks/card/__front-side/card__front-side.css);
+@import url(../blocks/card/__icon/card__icon.css);
+/* Блок label */
+@import url(../blocks/label/label.css);
+@import url(../blocks/label/__input/label__input.css);
+@import url(../blocks/label/_weight/label_weight_normal.css);
+/* Блок list */
+@import url(../blocks/list/list.css);
+@import url(../blocks/list/__item/list__item.css);
+@import url(../blocks/list/__title/list__title.css);
+/* Блок font-awesome */
+@import url(../blocks/font-awesome/font-awesome.css);

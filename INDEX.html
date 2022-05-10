@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https: //fonts.googleapis.com/css2?family= Lobster & display = swap" rel="stylesheet">
+    <link rel="stylesheet" href="./vendor/font-awesome/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -125,45 +126,77 @@
                 </fieldset>
                 <fieldset class="fieldset" name="checkbox">
                     <legend class="legend"> Списки и кнопки</legend>
-                    <label class="label label_weight_normal">
-                        <input class="radio-button" type="radio" name="gender" value="Man">
-                        Мужчина
-                    </label>
-                    <br>
-                    <label class="label label_weight_normal">
-                        <input class="radio-button" type="radio" name="gender" value="Woman">
-                        Женщина
-                    </label>
-                    <br>
-                    <ul class="property" id="property">
-                        <label for="property" class="label">Ваше имущество</label>
-                        <li class="property__item">
-                            <input class="checked-button" type="checkbox" name="property" value="car" id="car">
-                            <label for="car" class="label label_weight_normal">Автомобиль</label>
-
+                    <ul class="list">
+                        <h2 class="list__title">Ваш пол</h2>
+                        <li class="list__item">
+                            <input class="radio-button" type="radio" name="gender" value="Man" id="gender-man">
+                            <label for="gender-man" class="label label_weight_normal">Мужчина</label>
                         </li>
-                        <li class="property__item">
-                            <input class="checked-button" type="checkbox" name="property" value="bike" id="bike">
+                        <li class="list__item">
+                            <input class="radio-button" type="radio" name="gender" value="Woman" id="gender-woman"
+                                checked>
+                            <label for="gender-woman" class="label label_weight_normal">Женщина</label>
+                        </li>
+                    </ul>
+                    <ul class="list">
+                        <h2 class="list__title">Ваше имущество</h2>
+                        <li class="list__item">
+                            <input class="checkbox-button" type="checkbox" name="property" value="car" id="car">
+                            <label for="car" class="label label_weight_normal">Автомобиль</label>
+                        </li>
+                        <li class="list__item">
+                            <input class="checkbox-button" type="checkbox" name="property" value="bike" id="bike"
+                                checked>
                             <label for="bike" class="label label_weight_normal">Мотоцикл</label>
 
                         </li>
-                        <li class="property__item">
-                            <input class="checked-button" type="checkbox" name="property" value="flat" id="flat">
+                        <li class="list__item">
+                            <input class="checkbox-button" type="checkbox" name="property" value="flat" id="flat">
                             <label for="flat" class="label label_weight_normal">Квартира</label>
-
                         </li>
-                        <li class="property__item">
-                            <input class="checked-button" type="checkbox" name="property" value="landPlot"
+                        <li class="list__item">
+                            <input class="checkbox-button" type="checkbox" name="property" value="landPlot"
                                 id="landPlot">
                             <label for="landPlot" class="label label_weight_normal">Участок</label>
-
                         </li>
                     </ul>
+
+                    <h2 class="list__title">Любимый напиток</h2>
+                    <select name="favorite-drink" id="favorite-drink" class="drop-down-list">
+                        <option value="tea" class="drop-down-list__item">Чай</option>
+                        <option value="coffee" class="drop-down-list__item">Кофе</option>
+                        <option value="lemonade" class="drop-down-list__item" selected>Лимонад</option>
+                        <option value="beer" class="drop-down-list__item">Пиво</option>
+                    </select>
+                    <h2 class="label label__input" for="favorite-color">Любимый цвет</h2>
+                    <input class="input" id="favorite-color" type="color">
                     <button class="button" type="submit">Отправить</button>
                     <button class="button" type="reset">Стереть</button>
                 </fieldset>
             </form>
 
+        </section>
+        <section class="section">
+            <div class="card">
+                <div class="card__front-side">FRONT-SIDE</div>
+                <div class="card__back-side">BACK-SIDE</div>
+            </div>
+            <hr width="100%">
+            <div class="card__animation">
+                <i class="fa fa-camera-retro card__icon"></i>
+            </div>
+            <hr width="100%">
+        </section>
+        <section class="section font-awesome">
+            <h2 class="section__title">Font Awesome</h2>
+            <i class="fa fa-repeat font-awesome__icon" aria-hidden="true"></i>
+            <i class="fa fa-apple font-awesome__icon" aria-hidden="true"></i>
+            <i class="fa fa-chrome font-awesome__icon" aria-hidden="true"></i>
+            <i class="fa fa-cog fa-spin fa-fw font-awesome__icon"></i>
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-camera fa-stack-1x"></i>
+                <i class="fa fa-ban fa-stack-2x text-danger"></i>
+              </span>
         </section>
 </body>
 

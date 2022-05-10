@@ -1,0 +1,19 @@
+.card__icon {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 200px;
+    color: aliceblue;
+    animation: translatex 3s linear alternate infinite;
+    transition-duration: .5s;
+}
+
+.card__icon:hover {
+    animation-play-state: paused;
+    background-color: yellow;
+    color: black;
+}

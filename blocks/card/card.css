@@ -1,0 +1,12 @@
+.card {
+    min-width: 400px;
+    min-height: 400px;
+    margin: 100px auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s linear;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}

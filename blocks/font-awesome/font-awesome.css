@@ -1,0 +1,9 @@
+.font-awesome {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 150px;
+}
+
+.text-danger {
+    color: red;
+}
