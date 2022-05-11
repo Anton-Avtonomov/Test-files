@@ -1,0 +1,10 @@
+.list__title {
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.list__title::first-letter {
+    color: red;
+    font-style: italic;
+}

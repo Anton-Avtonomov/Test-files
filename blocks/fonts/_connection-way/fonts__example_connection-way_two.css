@@ -1,0 +1,9 @@
+/* Подключение через директиву "import" */
+
+.fonts__example_connection-way_two {
+    text-indent: -45px;
+    font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    /* Директива указана в fonts.css */
+}
