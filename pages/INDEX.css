@@ -1,35 +1,58 @@
 /* Обнуляющие стили */
+
 @import url(../vendor/normalize.css);
 
 /* Локальные шрифты */
+
 @import url(../fonts/Font-style.css);
+
 /* Обертка страницы */
+
 @import url(../blocks/root/ROOT.css);
+
 /* Секция */
+
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__title/section__title.css);
+
 /* Блок Шрифтов */
+
 @import url(../blocks/fonts/fonts.css);
 @import url(../blocks/fonts/__example/fonts__example.css);
 @import url(../blocks/fonts/_connection-way/fonts__example_connection-way_one.css);
 @import url(../blocks/fonts/_connection-way/fonts__example_connection-way_two.css);
 @import url(../blocks/fonts/_connection-way/fonts__example_connection-way_three.css);
+
 /* Блок Полей ввода */
+
 @import url(../blocks/input/input.css);
 @import url(../blocks/input/__item/input__item.css);
+
 /* Блок card */
+
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__animation/card__animation.css);
 @import url(../blocks/card/__back-side/card__back-side.css);
 @import url(../blocks/card/__front-side/card__front-side.css);
 @import url(../blocks/card/__icon/card__icon.css);
+
 /* Блок label */
+
 @import url(../blocks/label/label.css);
 @import url(../blocks/label/__input/label__input.css);
 @import url(../blocks/label/_weight/label_weight_normal.css);
+
 /* Блок list */
+
 @import url(../blocks/list/list.css);
 @import url(../blocks/list/__item/list__item.css);
 @import url(../blocks/list/__title/list__title.css);
+
 /* Блок font-awesome */
+
 @import url(../blocks/font-awesome/font-awesome.css);
+
+/* Блок font-awesome */
+
+@import url(../blocks/customized/__input/customized__input.css);
+@import url(../blocks/customized/customized.css);
