@@ -37,3 +37,8 @@
         padding: calc(10px + (50 - 10) * ((100vw - 320px) / (1600 - 320)));
     }
 }
+
+.inputt {
+    text-decoration: none;
+    display: inline;
+}

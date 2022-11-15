@@ -1,0 +1,51 @@
+/* не относится к уроку */
+
+.content {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.paragraph {
+    font-size: 22px;
+    line-height: 36px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #5e5373;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    padding: 0 50px;
+}
+
+.header__wrapper {}
+
+
+/* BURGER */
+
+.burger__wrapper {}
+
+.burger__list {
+    list-style-type: none;
+    display: flex;
+}
+
+.burger__list li {
+    margin-left: 20px;
+}
+
+.burger__link {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}
+
+.burger__burger {}
+
+.burger__menu {}

@@ -56,3 +56,7 @@
 
 @import url(../blocks/customized/__input/customized__input.css);
 @import url(../blocks/customized/customized.css);
+
+/* Блок font-awesome */
+
+@import url(../blocks/burger-menu/burger-menu.css);
